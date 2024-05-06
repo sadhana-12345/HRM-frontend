@@ -1,0 +1,105 @@
+
+<section class=" " style="background-color: #efe6e6;">
+  <div class="container py-20 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-xl-10">
+        <div class="card rounded-3 text-black">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="card-body p-md-5 mx-md-4">
+
+                <div class="text-center">
+                  <img src="https://t3.ftcdn.net/jpg/01/35/34/34/360_F_135343441_7xf3a1GtqdRbb3qckfiqvKpaya2xk0Zi.jpg"
+                    style="width: 185px;" alt="logo">
+                  <h4>Sign Up  </h4>
+                </div>
+
+                <form (ngSubmit)="onSubmit()">
+                  <p>Sign Up with your Details</p>
+
+                  <div class="mb-4">
+                    <label class="block-text" for="firstname">
+                       First Name :
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
+                    leading-tight focus:outline-none focus:shadow-outline" [(ngModel)]="firstname" 
+                    name="firstname" id="firstname" type="text" placeholder="FirstName">
+                </div>
+
+                <div class="mb-4">
+                  <label class="block-text" for="lastname">
+                     Last Name :
+                  </label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
+                  leading-tight focus:outline-none focus:shadow-outline" [(ngModel)]="lastname" 
+                  name="lastname" id="lastname" type="text" placeholder="LastName">
+              </div>
+
+                  
+                    <div class="mb-4">
+                      <label class="block-text" for="email">
+                          Email ID :
+                      </label>
+                      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
+                      leading-tight focus:outline-none focus:shadow-outline" [(ngModel)]="email" 
+                      name="email" id="email" type="email" placeholder="Email">
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="block-text" for="phone">
+                        Phone No :
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
+                    leading-tight focus:outline-none focus:shadow-outline" [(ngModel)]="phonenumber" 
+                    name="phonenumber" id="phonenumber" type="text" placeholder="Phone">
+                </div>
+
+
+
+                  <div class="mb-4">
+                    <label class="block-text" for="password">
+                       Password :
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
+                    leading-tight focus:outline-none focus:shadow-outline" [(ngModel)]="password" 
+                    name="password" id="password" type="password" placeholder="*********">
+                </div>
+                    
+                 <div class="col-md-6 offset-md-3">
+              
+                      
+                  <!-- <div class="text-center pt-1 mb-5 pb-1"> -->
+                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Sign Up
+                      </button>
+                      
+                  </div>
+                 
+                </form>
+                <div *ngIf="message" class="alert alert-danger">{{ message }}</div>
+
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+              <div class="text-white px-3 py-4 p-md-2 mx-md-4">
+                <h2 class="mb-4">Welcome to Human Resource Management(HRM)</h2>
+                <img src="assets/img/hrm.jpg" width="102%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+

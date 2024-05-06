@@ -1,0 +1,71 @@
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #36e3c0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #044248, #126f90, #03845d, #310749);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #044248, #0d698a, #03845d, #2d0543);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+
+
+    .block-text{
+        color:rgb(17, 60, 60);
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+        text-shadow: 2px 2px 4px rgba(15, 133, 149, 0.5);
+    }
+    #email{
+        margin-left: 21px;
+      }
+      #password{
+        margin-left: 10px;
+      }
+
+      p{
+        color:#188591;
+        font-weight: 700;
+        
+      }
+
+     h4{
+        color: rgb(11, 56, 73);
+        font-weight: 900;
+        text-shadow: 2px 2px 4px rgba(17, 121, 135, 0.5);
+      }
+
+      h2{
+        text-align: center;
+      }
+    h3{
+        color: cornsilk;
+        text-align: left;
+    }
+
+   
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-item ul, li, a {
+    color: whitesmoke !important;
+    font-size: 1.2rem;
+}
+
+.nav-item ul, li, a:hover {
+   color:#f59d46 !important;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #680974, #06603f, #035b67);
+    padding: 5px !important;
+    padding-right: 10% !important;
+}
+img{
+    padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    header .fa-bars {
+        display: block;
+    }
+
+    header .container .logo {
+        font-size: 7rem;
+    }
+
+    header .container .logo span {
+        color: var(--blue);
+    }
+
+    header .nav {
+        position: fixed;
+        top: -100rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 0 100vh rgba(0, 0, 0, .3);
+        border-radius: .5rem;
+        border: .3rem solid var(--blue) !important;
+        background: #fff;
+        width: 95%;
+        opacity: 0;
+    }
+
+    header .nav ul {
+        width: 100%;
+        flex-flow: column;
+        padding: 0;
+    }
+
+    header .nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    header .nav ul li a {
+        font-size: 25px !important;
+        display: block;
+    }
+
+    header .nav-toggle {
+        top: 50%;
+        opacity: 1;
+    }
+
+    /* Hover effect for navbar */
+    header .navbar:hover {
+        background-image: linear-gradient(to right, #7a087a, #067047, #045f6b);
+    }
+
+    header .navbar:hover ul, 
+    header .navbar:hover li, 
+    header .navbar:hover a {
+        color: white !important;
+    }
+}
+

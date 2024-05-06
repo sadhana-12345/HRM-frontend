@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  padding-top: 80px; /* Adjust according to your navbar height */
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+ 
+}
+
+.card-title {
+  color: #333;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Header Styles */
+.header {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Feature Cards */
+.feature-card {
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.navbar-brand {
+  color: #333; /* Adjust color as needed */
+  font-weight: bold;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Custom CSS to move the email to the right side */
+.ml-auto {
+  margin-left: auto !important;
+}
+
+/* Custom CSS to style the email */
+.user-email {
+  color:indigo; /* Change color as needed */
+  font-weight: bold;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+
+
+.form-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.feedback-form {
+width: 300px;
+padding: 20px;
+margin: 0; /* Reset margin */
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #f9f9f9;
+}
+
+.feedback-form label {
+display: block;
+margin-bottom: 10px;
+}
+
+.feedback-form textarea {
+width: calc(100% - 40px); /* Adjusted width to account for padding */
+height: 100px;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+.feedback-form button {
+width: 100%;
+padding: 4px 0; /* Adjusted padding */
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 14px; /* Adjusted font size */
+}
+
+.feedback-form button:hover {
+background-color: #0056b3;
+}
